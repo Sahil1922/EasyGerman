@@ -1,0 +1,69 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0; /* Light background color */
+}
+
+.container {
+  text-align: center;
+  margin: 20px; /* Adjusted margin for better spacing */
+  color: #333; /* Dark text color */
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  margin: 0 10px 20px;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Adjust as needed */
+  align-items: flex-start; /* Align items to the start of the container */
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  cursor: pointer;
+  width: 120px; /* Adjusted width for the images */
+  height: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.openPageBtn {
+  cursor: pointer;
+  width: calc(20% - 20px); /* Adjusted width for 5 buttons in a row with margin */
+  max-width: 150px; /* You can adjust the maximum width as needed */
+  height: auto;
+  margin: 10px; /* Adjusted margin for better spacing */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.openPageBtn:hover {
+  transform: scale(1.1);
+}

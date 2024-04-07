@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>German Learning Quiz</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="../../css/style.css" />
+
+  <style>
+    body {
+      text-align: center;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+
+    .motivational-message {
+      font-size: 24px;
+      color: #333;
+      margin-top: 10rem;
+      line-height: 1.6;
+    }
+
+    .highlight {
+      font-weight: bold;
+    }
+
+    .score {
+      margin-top: 3rem;
+      font-size: 20px;
+      color: #333;
+      /* Darker color for score */
+      margin-bottom: 20px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 15px 30px;
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 2rem;
+      margin-bottom: 15rem;
+      text-transform: uppercase;
+      background-color: #784cfb;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #5637b1;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    @media (max-width: 560px) {
+      .motivational-message {
+        font-size: 15px;
+        margin-top: 5rem;
+      }
+
+      .cta-button {
+        font-size: 12px;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <header id="header">
+      <nav>
+        <div class="container">
+          <div class="logo">
+            <a href="#" class="logo">Easy<span>German.</span></a>
+          </div>
+
+          <div class="links">
+            <ul>
+              <li>
+                <a href="../../p1.html">Back</a>
+              </li>
+              <li>
+                <a href="../../../../p1.html" class="active">Home</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="motivational-message">
+      <p><span class="highlight">Congratulations!</span> You've completed the German learning quiz. Keep up the
+        great
+        work!</p>
+      <p>Learning a new language takes time and effort, but your dedication will pay off.</p>
+    </div>
+
+    <div class="score">Your score: <span class="highlight" id="userScore">${userScore}</span>/30</div>
+
+
+    <a href="../../p1.html" class="cta-button">Continue Learning</a>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="grid-4">
+        <div class="grid-4-col footer-about">
+          <h3 class="title-sm">Quote</h3>
+          <p class="text">
+            "Language is the key that unlocks the door to new worlds, cultures, and connections. Embrace the journey of learning a language, 
+            for with each word or letter you gain, you expand your horizons and enrich your life."
+          </p>
+        </div>
+
+        
+
+        <div class="grid-4-col footer-newstletter">
+          <h3 class="title-sm">Contact Us</h3>
+          <p class="text">
+            If you need any kind of help or report a bug, please feel free to contact us
+          </p>
+          <div class="footer-input-wrap">
+            <input  type="email" class="footer-input" placeholder="Email" />
+            <a href="mailto:sahilkumar05241@gmail.com" class="input-arrow">
+              <i class="uil uil-angle-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-footer">
+        <div class="copyright">
+          <p class="text">
+            Copyright&copy;2024 All rights reserved | Made by
+            <span>Mandeep, Nishant, Shivam and Sahil</span>
+          </p>
+        </div>
+
+        
+      </div>
+    </div>
+  </footer>
+  
+  <script>
+    // Retrieve the user's score from sessionStorage
+    let userScore = sessionStorage.getItem('userScore') ? parseInt(sessionStorage.getItem('userScore')) : 0;
+
+    // Display the user's score
+    const userScoreElement = document.getElementById("userScore");
+    userScoreElement.textContent = userScore;
+
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./js/isotope.pkgd.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="../js/app.js"></script>
+  <script src="../js/sound.js"></script>
+  <script src="../js/script.js"></script>
+</body>
+
+</html>

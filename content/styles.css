@@ -1,0 +1,65 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Light background color */
+}
+.container {
+  text-align: center;
+  color: #333; /* Dark text color */
+  margin: auto;
+}
+    
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none; /* Remove underline from the link */
+  margin: 0 10px 20px; /* Add margin between the images */
+}
+
+  
+
+  img {
+    cursor: pointer;
+    width: 120px; /* Adjust the width as needed */
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  img:hover {
+    transform: scale(1.1); /* Scale up the image on hover */
+  }
+  .image-container{
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .openPageBtn {
+    cursor: pointer;
+    width: 150px; /* Adjust the width as needed */
+    height: auto;
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .openPageBtn:hover {
+    transform: scale(1.1); /* Scale up the image on hover */
+  }
+  

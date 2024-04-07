@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>German Learning</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link rel="stylesheet" href="../../css/style.css" />
+
+</head>
+
+<body>
+  <main>
+    <header id="header">
+      <nav>
+        <div class="container">
+          <div class="logo">
+            <a href="#" class="logo">Easy<span>German.</span></a>
+          </div>
+
+          <div class="links">
+            <ul>
+              <li>
+                <a href="../../p1.html">Back</a>
+              </li>
+
+              <li>
+                <a href="./page30.html">Score</a>
+              </li>
+
+
+              <li>
+                <a href="../../../../p1.html" class="active">Home</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <audio src="alphabets/h.mp3" autoplay></audio>
+    <div class="container_showcase">
+      <div class="header">
+       <div class="header-title">
+        
+       </div>
+        <h1>Guess the letter - <span class="highlight">4</span>/30</h1>
+        
+        <img src="images/speaker.jpg" alt="Learn German" class="openPageBtn small-btn" data-sound="alphabets/h.mp3" />
+
+      </div>
+      <div class="grid-container">
+        <button onclick="checkAnswer(this)" class="wrong" style="border: none">
+          <img src="images/e.jpg" alt="Learn German" class="openPageBtn fadeOut" data-sound="wrong/w2.mp3" />
+        </button>
+        <button onclick="checkAnswer(this)" class="wrong" style="border: none">
+          <img src="images/c.jpg" alt="Learn German" class="openPageBtn fadeOut" data-sound="wrong/w2.mp3" />
+        </button>
+        <button onclick="checkAnswer(this)" class="wrong" style="border: none">
+          <img src="images/i.jpg" alt="Learn German" class="openPageBtn fadeOut" data-sound="wrong/w2.mp3" />
+        </button>
+        <button onclick="checkAnswer(this)" class="correct" style="border: none">
+          <img src="images/h.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/h.mp3" />
+        </button>
+      </div>
+
+    </div>
+
+    <a href="./page4.html" class="next-page-link" style="display: none;"><img src="images/n.jpg" alt="Next Page"
+        class="next-page-btn" /></a>
+
+    <div class="result-container">
+      <div class="tick"></div>
+      <div class="cross"></div>
+    </div>
+
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="grid-4">
+          <div class="grid-4-col footer-about">
+            <h3 class="title-sm">Quote</h3>
+            <p class="text">
+              "Language is the key that unlocks the door to new worlds, cultures, and connections. Embrace the journey of learning a language, 
+              for with each word or letter you gain, you expand your horizons and enrich your life."
+            </p>
+          </div>
+
+          
+
+          <div class="grid-4-col footer-newstletter">
+            <h3 class="title-sm">Contact Us</h3>
+            <p class="text">
+              If you need any kind of help or report a bug, please feel free to contact us
+            </p>
+            <div class="footer-input-wrap">
+              <input  type="email" class="footer-input" placeholder="Email" />
+              <a href="mailto:sahilkumar05241@gmail.com" class="input-arrow">
+                <i class="uil uil-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-footer">
+          <div class="copyright">
+            <p class="text">
+              Copyright&copy;2024 All rights reserved | Made by
+              <span>Mandeep, Nishant, Shivam and Sahil</span>
+            </p>
+          </div>
+
+          
+        </div>
+      </div>
+    </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../js/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="../js/sound.js"></script>
+    <script src="../js/script.js"></script>
+
+</body>
+</html>

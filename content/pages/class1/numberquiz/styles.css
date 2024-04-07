@@ -1,0 +1,167 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Light background color */
+}
+
+/* Existing CSS styles ... */
+
+.fadeOut {
+  transition: opacity 0.5s ease-in-out; /* Add a transition for opacity */
+}
+
+.fadeOut.clicked {
+  opacity: 0.5; /* Set the initial opacity when clicked */
+}
+
+
+.container {
+  text-align: center;
+  color: #333; /* Dark text color */
+  margin-top: 20px; /* Add margin to the top */
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5em; /* Increase font size */
+  margin-bottom: 20px;
+  color:#000; /* Header color */
+}
+
+.highlight {
+  color: red; /* or any other color you prefer */
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px; /* Adjust the gap between grid items */
+}
+
+a {
+  text-decoration: none; /* Remove underline from the link */
+}
+
+img {
+  cursor: pointer;
+  width: auto; /* Adjust the width as needed */
+  height: auto;
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.1); /* Scale up the image on hover */
+}
+
+.openPageBtn {
+  cursor: pointer;
+  width: 100%; /* Adjust the width as needed */
+  max-width: 160px; /* Set a maximum width */
+  height: auto;
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  transition: transform 0.3s ease-in-out;
+}
+
+.options button {
+  border: none;
+  margin: 10px;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Existing CSS styles ... */
+
+.next-page-btn {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 50px; /* Adjust the width as needed */
+  height: auto;
+  cursor: pointer;
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  transition: transform 0.3s ease-in-out;
+}
+
+.next-page-btn:hover {
+  transform: scale(1.1); /* Scale up the image on hover */
+}
+
+/* Existing CSS styles ... */
+
+.container {
+  text-align: center;
+  color: #333; /* Dark text color */
+  margin-top: 10px; /* Add margin to the top */
+  margin-bottom: 30px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.small-btn {
+  cursor: pointer;
+  width: 36px; /* Adjust the width as needed */
+  height: auto;
+  margin-left: 10px; /* Add margin between the text and the button */
+  transition: transform 0.3s ease-in-out;
+}
+
+.small-btn:hover {
+  transform: scale(1.1); /* Scale up the image on hover */
+}
+
+/* Cross and Tick Styles */
+
+.result-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; /* Center vertically and horizontally */
+  margin-top: auto; /* Push to the bottom */
+  width: 100%;
+}
+
+
+.tick,
+.cross {
+  display: none;
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+.tick::before {
+  content: '\2714';
+  color: #00cc00;
+}
+
+.cross::before {
+  content: '\2718';
+  color: #cc0000;
+}
+
+
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+

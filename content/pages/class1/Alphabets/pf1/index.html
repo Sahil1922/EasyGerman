@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>G_basics Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+  
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <header id="header">
+        <nav>
+          <div class="container">
+            <div class="logo">
+              <img src="../img/logo.png" alt="" />
+            </div>
+
+            <div class="links">
+              <ul>
+                <li>
+                  <a href="#Back">Back</a>
+                </li>
+
+              
+
+                <li>
+                  <a href="#home" class="active">Home</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </nav>
+      </header>
+   
+      <section class="G_basics section" id="class1">
+        <div class="background-bg">
+          <div class="overlay overlay-sm">
+            <img
+              src="../img/shapes/half-circle.png"
+              class="shape half-circle1"
+              alt=""
+            />
+            <img
+              src="../img/shapes/half-circle.png"
+              class="shape half-circle2"
+              alt=""
+            />
+            <img src="../img/shapes/square.png" class="shape square" alt="" />
+            <img src="../img/shapes/wave.png" class="shape wave" alt="" />
+            <img src="../img/shapes/circle.png" class="shape circle" alt="" />
+            <img
+              src="../img/shapes/triangle.png"
+              class="shape triangle"
+              alt=""
+            />
+            <img src="../img/shapes/x.png" class="shape xshape" alt="" />
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="German">Basics</h3>
+          </div>
+
+          <div class="section-body">
+            <div class="filter">
+              <button class="filter-btn active" data-filter="*">All</button>
+              <button class="filter-btn" data-filter=".a1">A/1</button>
+            </div>
+           
+            <div class="grid">
+              <div class="grid-item a1">
+                <div class="gallery-image">  
+                  <img src="images/a.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/a.mp3">
+                </div>
+              </div>
+              <div class="grid-item a1">
+                <div class="gallery-image" onclick="openLink('pf1/index.html')">
+                  <img src="./img/images/alphabets_quiz.jpg" alt="" />
+                </div>
+              </div>
+
+              <div class="grid-item a1">
+                <div class="gallery-image" onclick="openLink('pf1/index.html')">
+                  <img src="./img/images/number_theory.jpg" alt="" />
+                </div>
+              </div>
+              <div class="grid-item a1">
+                <div class="gallery-image" onclick="openLink('pf1/index.html')">
+                  <img src="./img/images/number_pro.jpg" alt="" />
+                </div>
+              </div>
+              <div class="grid-item a1">
+                <div class="gallery-image" onclick="openLink('pf1/index.html')">
+                  <img src="./img/images/number_quiz.jpg" alt="" />
+                </div>
+              </div>
+              <div class="grid-item grammar">
+                <div class="gallery-image" onclick="openLink('pf1/index.html')">
+                  <img src="./img/images/df_theory.jpg" alt="" />
+                </div>
+              </div>
+              <div class="grid-item grammar">
+                <div class="gallery-image" onclick="openLink('pf1/index.html')">
+                  <img src="./img/images/df_practice.jpg" alt="" />
+                </div>
+              </div>
+              <div class="grid-item grammar">
+                <div class="gallery-image" onclick="openLink('pf1/index.html')">
+                  <img src="./img/images/ind_theory.jpg" alt="" />
+                </div>
+              </div>
+              <div class="grid-item grammar">
+                <div class="gallery-image" onclick="openLink('pf1/index.html')">
+                  <img src="./img/images/ind_practice.jpg" alt="" />
+                </div>
+              </div>
+              <div class="grid-item grammar">
+                <div class="gallery-image" onclick="openLink('pf1/index.html')">
+                  <img src="./img/images/vowels_t.jpg" alt="" />
+                </div>
+              </div>
+              <div class="grid-item grammar">
+                <div class="gallery-image" onclick="openLink('pf1/index.html')">
+                  <img src="./img/images/vowels_p.jpg" alt="" />
+                </div>
+              </div>
+              <div class="grid-item grammar">
+                <div class="gallery-image" onclick="openLink('pf1/index.html')">
+                  <img src="./img/images/pos.jpg" alt="" />
+                </div>
+              </div>
+              <div class="grid-item v1">
+                <div class="gallery-image" onclick="openLink('pf1/index.html')">
+                  <img src="./img/images/animals.jpg" alt="" />
+                </div>
+              </div>
+              <div class="grid-item v1">
+                <div class="gallery-image" onclick="openLink('pf1/index.html')">
+                  <img src="./img/images/body parts.jpg" alt="" />
+                </div>
+              </div>
+              <div class="grid-item v1">
+                <div class="gallery-image" onclick="openLink('pf1/index.html')">
+                  <img src="./img/images/fv.jpg" alt="" />
+                </div>
+              </div>
+              <div class="grid-item v1">
+                <div class="gallery-image" onclick="openLink('pf1/index.html')">
+                  <img src="./img/images/family.jpg" alt="" />
+                </div>
+              </div>
+              <div class="grid-item v1">
+                <div class="gallery-image" onclick="openLink('pf1/index.html')">
+                  <img src="./img/images/personality.jpg" alt="" />
+                </div>
+              </div>
+              <div class="grid-item v1">
+                <div class="gallery-image" onclick="openLink('pf1/index.html')">
+                  <img src="./img/images/clothes.jpg" alt="" />
+                </div>
+              </div>
+              <div class="grid-item v1">
+                <div class="gallery-image" onclick="openLink('pf1/index.html')">
+                  <img src="./img/images/prof1.jpg" alt="" />
+                </div>
+              </div>
+              <div class="grid-item v2">
+                <div class="gallery-image" onclick="openLink('pf1/index.html')">
+                  <img src="./img/images/places.jpg" alt="" />
+                </div>
+              </div>
+              <div class="grid-item v2">
+                <div class="gallery-image" onclick="openLink('pf1/index.html')">
+                  <img src="./img/images/colours.jpg" alt="" />
+                </div>
+              </div>
+              <div class="grid-item v2">
+                <div class="gallery-image" onclick="openLink('pf1/index.html')">
+                  <img src="./img/images/shapes.jpg" alt="" />
+                </div>
+              </div>
+              <div class="grid-item v2">
+                <div class="gallery-image" onclick="openLink('pf1/index.html')">
+                  <img src="./img/images/punc.jpg" alt="" />
+                </div>
+              </div>
+              <div class="grid-item v2">
+                <div class="gallery-image" onclick="openLink('pf1/index.html')">
+                  <img src="./img/images/school.jpg" alt="" />
+                </div>
+              </div>
+              <div class="grid-item v2">
+                <div class="gallery-image" onclick="openLink('pf1/index.html')">
+                  <img src="./img/images/transport.jpg" alt="" />
+                </div>
+              </div>
+              <div class="grid-item v2">
+                <div class="gallery-image" onclick="openLink('pf1/index.html')">
+                  <img src="./img/images/words.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="more-folio">
+              <a href="#" class="btn">Top</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="container">
+      <h1>German Alphabets</h1>
+      <div class ="image-container">
+      <img src="images/a.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/a.mp3">
+      <img src="images/b.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/b.mp3">
+      <img src="images/c.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/c.mp3">
+      <img src="images/d.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/d.mp3">
+      <img src="images/e.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/e.mp3">
+      <img src="images/f.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/f.mp3">
+      <img src="images/g.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/g.mp3">
+      <img src="images/h.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/h.mp3">
+      <img src="images/i.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/i.mp3">
+      <img src="images/j.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/j.mp3">
+      <img src="images/k.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/k.mp3">
+      <img src="images/l.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/l.mp3">
+      <img src="images/m.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/m.mp3">
+      <img src="images/n.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/n.mp3">
+      <img src="images/o.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/o.mp3">
+      <img src="images/p.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/p.mp3">
+      <img src="images/q.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/q.mp3">
+      <img src="images/r.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/r.mp3">
+      <img src="images/s.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/s.mp3">
+      <img src="images/t.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/t.mp3">
+      <img src="images/u.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/u.mp3">
+      <img src="images/v.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/v.mp3">
+      <img src="images/w.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/w.mp3">
+      <img src="images/x.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/x.mp3">
+      <img src="images/y.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/y.mp3">
+      <img src="images/z.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/z.mp3">
+      <img src="images/aa.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/aa.mp3">
+      <img src="images/oo.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/oo.mp3">
+      <img src="images/uu.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/uu.mp3">
+      <img src="images/ss.jpg" alt="Learn German" class="openPageBtn" data-sound="alphabets/ss.mp3">
+      
+    </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="grid-4">
+          <div class="grid-4-col footer-about">
+            <h3 class="title-sm">About</h3>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+              officiis quo officia quia?
+            </p>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Links</h3>
+            <ul>
+              <li>
+                <a href="#services">Services</a>
+              </li>
+              <li>
+                <a href="#G_basics">G_basics</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#testimonials">Testimonials</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Services</h3>
+            <ul>
+              <li>
+                <a href="#">Web Design</a>
+              </li>
+              <li>
+                <a href="#">Web Dev</a>
+              </li>
+              <li>
+                <a href="#">App Design</a>
+              </li>
+              <li>
+                <a href="#">Marketing</a>
+              </li>
+              <li>
+                <a href="#">UI Design</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-newstletter">
+            <h3 class="title-sm">Subscribe</h3>
+            <p class="text">
+              Lorem ipsum dolor, sit amet ipsum dolor sit amet.
+            </p>
+            <div class="footer-input-wrap">
+              <input type="email" class="footer-input" placeholder="Email" />
+              <a href="#" class="input-arrow">
+                <i class="fas fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-footer">
+          <div class="copyright">
+            <p class="text">
+              Copyright&copy;2020 All rights reserved | Made by
+              <span>Sahil Kumar</span>
+            </p>
+          </div>
+
+          <div class="followme-wrap">
+            <div class="followme">
+              <h3>Follow me</h3>
+              <span class="footer-line"></span>
+              <div class="social-media">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="back-btn-wrap">
+              <a href="#" class="back-btn">
+                <i class="fas fa-chevron-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+   
+
+  <script src="script.js"></script>
+</body>
+</html>
